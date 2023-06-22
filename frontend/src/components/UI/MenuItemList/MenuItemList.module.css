@@ -1,0 +1,11 @@
+.header_menu {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

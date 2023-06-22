@@ -1,0 +1,28 @@
+.label {
+    font-size: 1.2rem;
+    color: #777777;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.info {
+    font-size: 1.05rem;
+    color: #cccccc;
+    margin-bottom: 12px;
+}
+
+.code_lang {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.code_lang .circle {
+    display: inline-block;
+    height: 0.84rem;
+    width: 0.84rem;
+    border-radius: 15px;
+    border: 1px solid #606060;
+    margin-right: 3px;
+}

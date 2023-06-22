@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.title {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    max-height: 110px;
+    flex-direction: column;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+.content::-webkit-scrollbar {
+    width: 12px;
+}
+
+.content::-webkit-scrollbar-track {
+    background: #373737;
+    border-radius: 10px;
+    border: 1px solid #606060;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background-color: #262626;    
+    border-radius: 10px;
+    border: 1px solid #606060;        
+}
+
+.item {
+    margin-bottom: 5px;
+}
+
+.footer {
+    font-size: 0.75rem;
+}
+
+
+.checkbox.style_b {
+    display: inline-block;
+    position: relative;
+    padding-left: 50px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .checkbox.style_b input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkbox.style_b input:checked ~ .checkbox__checkmark {
+    background-color: #f7cb15;
+  }
+  .checkbox.style_b input:checked ~ .checkbox__checkmark:after {
+    left: 21px;
+  }
+  .checkbox.style_b:hover input ~ .checkbox__checkmark {
+    background-color: #eee;
+  }
+  .checkbox.style_b:hover input:checked ~ .checkbox__checkmark {
+    background-color: #f7cb15;
+  }
+  .checkbox.style_b .checkbox__checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: calc(0.8rem + 4px);
+    width: calc(0.8rem + 24px);
+    background-color: #eee;
+    transition: background-color 0.25s ease;
+    border-radius: 11px;
+  }
+  .checkbox.style_b .checkbox__checkmark:after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 0.8rem;
+    height: 0.8rem;
+    display: block;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: left 0.25s ease;
+  }
+  .checkbox.style_b .checkbox__body {
+    color: #9F9F9F;
+    line-height: 1.4;
+    font-size: 0.8rem;
+    transition: color 0.25s ease;
+  }

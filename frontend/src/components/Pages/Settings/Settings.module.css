@@ -1,0 +1,8 @@
+.info {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    display: block;
+    color: #9f9f9f;
+    padding: 20px;
+    min-height: 100vh;
+}

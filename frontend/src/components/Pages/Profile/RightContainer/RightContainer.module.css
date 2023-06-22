@@ -1,0 +1,18 @@
+.container {
+    width: 65%;
+    color: #9F9F9F;
+    padding: 30px 30px;
+}
+
+.label {
+    font-size: 1.2rem;
+    color: #777777;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.info {
+    font-size: 1.05rem;
+    color: #cccccc;
+    margin-bottom: 12px;
+}

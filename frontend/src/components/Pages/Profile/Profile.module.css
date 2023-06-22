@@ -1,0 +1,7 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: start;
+    font-family: 'Open Sans', sans-serif;
+}

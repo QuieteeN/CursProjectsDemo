@@ -1,0 +1,18 @@
+INSERT news_repos_programminglanguage(name, color) 
+VALUES 
+('С', '#555555'),
+('Python', '#3572A5'),
+('С#', '#178600'),
+('TypeScript', '#3178C6'),
+('Rust', '#DEA584'),
+('C++', '#F34B7D'),
+('Java', '#B07219'),
+('Go', '#00ADD8'),
+('JavaScript', '#F1E05A'),
+('PHP', '#4F5D95'),
+('HTML', '#E34C26'),
+('CSS', '#563D7C'),
+('Swift', '#F05138'),
+('Kotlin', '#F18E33'),
+('Objective-C', '#438EFF'),
+('Shell', '#89E051');

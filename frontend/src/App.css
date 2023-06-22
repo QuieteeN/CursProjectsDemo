@@ -1,0 +1,20 @@
+body {
+    background-color: #262626;
+}
+  
+a {
+    color: inherit;
+    text-decoration: none;
+}
+  
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+  
+.wrapper .post {
+    background-color: #262626;
+    min-height: 400px;
+    margin-top: 30px;
+    border-radius: 15px;
+}

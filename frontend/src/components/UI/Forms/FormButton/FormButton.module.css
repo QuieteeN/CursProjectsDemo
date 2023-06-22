@@ -1,0 +1,21 @@
+.btn {
+    background-color: #373737;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #606060;
+    color: #9F9F9F;
+    border-radius: 6px;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 0.9rem;
+    transition: .3s;
+    margin-bottom: 15px;
+}
+
+.btn:hover {
+    background-color: #454545;
+    color: #dfdfdf;
+}
+
+.auth {
+    margin-top: 15px;
+}

@@ -1,0 +1,9 @@
+.header_menu_item {
+    font-size: 0.9em;
+    margin: 20px 32px 20px 0px;
+    color: #fff;
+}
+
+.nav_menu_link {
+    cursor: pointer;
+}

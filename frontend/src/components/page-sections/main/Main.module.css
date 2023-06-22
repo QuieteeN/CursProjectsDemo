@@ -1,0 +1,16 @@
+.main {
+    min-height: 100vh;
+    margin-top: 50px;
+    /* background-color: #262626;
+    padding-top: 50px;
+    padding-bottom: 80px; */
+}
+
+.main .main_content {
+    width: 100%;
+    background-color: #303030;
+    min-height: 100vh;
+    border-radius: 15px;
+    /* padding: 25px 35px; */
+    /* border: 1px solid #606060; */
+}
